@@ -6,6 +6,7 @@ import BestCare from './BestCare';
 import LoadingScreen from './LoadingScreen';
 import EdgeCare from './EdgeCare';
 import Testimonials from './Testimonials';
+import OfferAppoinment from './OfferAppoinment';
 
 
 
@@ -17,8 +18,9 @@ const Home = () => {
            <LoadingScreen></LoadingScreen>
            <BestCare></BestCare>
            <Department></Department>
-           <EdgeCare></EdgeCare>
            <Testimonials></Testimonials>
+           <EdgeCare></EdgeCare>
+           <OfferAppoinment></OfferAppoinment>
            
         </div>
     );
