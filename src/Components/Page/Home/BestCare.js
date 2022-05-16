@@ -16,7 +16,7 @@ const BestCare = () => {
                   </div>
                </div>
 
-               <div className='mx-11 mt-7 space-y-7 max-w-xl'>
+               <div className='mx-11 mt-7 space-y-7 max-w-xl' data-aos="fade-left">
                    <p className='text-2xl font-light'>Welcome to Docmed</p>
                    <h2 className='text-4xl font-semibold pt-7'>Best Care For Your <span className='block'>Good Health</span></h2>
                      <p className='text-gray-700'>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable projecting expression.</p>

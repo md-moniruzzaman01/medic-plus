@@ -4,7 +4,8 @@ const DepartmentCard = ({dpCard}) => {
     const {img,body,department}=dpCard;
     console.log(dpCard);
     return (
-        <div className='flex justify-center items-center'>
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom" className='flex justify-center items-center'>
             <div className="rounded overflow-hidden bg-white relative min-h-[400px] w-[22rem]">
         <img className="w-full " src={img} alt="Mountain"/>
         <div className="px-6 py-4">

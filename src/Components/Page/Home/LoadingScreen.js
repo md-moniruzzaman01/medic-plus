@@ -1,8 +1,15 @@
-import React from 'react';
+import Aos from 'aos';
+import React, { useEffect } from 'react';
 import bgImg from '../../../image/bg.png'
 import doctorPng from '../../../image/medium-shot-smiley-nurse-with-stethoscope.png'
 import Info from './Info';
+
 const LoadingScreen = () => {
+    useEffect(()=>{
+        Aos.init({
+            duration:2000
+        })
+    },[])
     return (
         <div className='min-h-[110vh] relative' style={{
             backgroundImage:`url(${bgImg})`,
@@ -17,7 +24,7 @@ const LoadingScreen = () => {
                 }}>
 
             
-            <div class=" inline-block justify-between items-center  container mx-auto lg:w-full lg:flex"  >
+            <div data-aos="zoom-in-right" class=" inline-block justify-between items-center  container mx-auto lg:w-full lg:flex"  >
                 <div className=' flex justify-center w-8/12 mx-auto'>
                     <div className='max-w-3xl'>
                     <h1 class="text-3xl md:text-6xl font-bold text-custom-secondary">Complete health care solution for everyone</h1>
@@ -25,7 +32,8 @@ const LoadingScreen = () => {
                     <button class="btn border-0 bg-custom-primary">Check Our Services</button>
                     </div>
                 </div>
-              <div className='mx-auto w-8/12 max-w-lg '>
+              <div className='mx-auto w-8/12 max-w-lg ' >
+              
                 <img className='w-full' src={doctorPng} alt="" />
                </div>
 
