@@ -1,7 +1,7 @@
 import Aos from 'aos';
 import React, { useEffect } from 'react';
 import bgImg from '../../../image/bg.png'
-import doctorPng from '../../../image/medium-shot-smiley-nurse-with-stethoscope.png'
+import doctorPng from '../../../image/medium-shot-smiley-nurse-with-stethoscope-min.png'
 import Info from './Info';
 
 const LoadingScreen = () => {
@@ -24,15 +24,15 @@ const LoadingScreen = () => {
                 }}>
 
             
-            <div data-aos="zoom-in-right" class=" inline-block justify-between items-center  container mx-auto lg:w-full lg:flex"  >
-                <div className=' flex justify-center w-8/12 mx-auto'>
+            <div data-aos="zoom-in-right" class="justify-between items-center flex flex-col lg:flex-row  container mx-auto lg:w-full py-5"  >
+                <div className=' flex justify-center w-11/12 lg:w-8/12 mx-auto mt-5 order-2 lg:order-1'>
                     <div className='max-w-3xl'>
                     <h1 class="text-3xl md:text-6xl font-bold text-custom-secondary">Complete health care solution for everyone</h1>
                     <p class="py-6 text-base lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iure facilis, dicta eligendi aliquid deleniti, in sed sequi voluptas esse dolore doloribus? Aspernatur, fuga velit aperiam similique temporibus asperiores saepe?</p>
                     <button class="btn border-0 bg-custom-primary">Check Our Services</button>
                     </div>
                 </div>
-              <div className='mx-auto w-8/12 max-w-lg ' >
+              <div className='mx-auto w-8/12 max-w-lg order-1 lg:order-2' >
               
                 <img className='w-full' src={doctorPng} alt="" />
                </div>

@@ -46,7 +46,7 @@ const Department = () => {
         <div className='min-h-screen  bg-gray-100'>
             <h1 className='text-custom-secondary text-4xl text-center font-semibold pt-11'>Our Department</h1>
             <div className='max-w-xl mx-auto'>
-            <p className='text-center mt-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eaque molestias minima odio consectetur sequi, commodi blanditiis </p>
+            <p className='text-center mt-5 px-5'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi eaque molestias minima odio consectetur sequi, commodi blanditiis </p>
             </div>
 
             <div className='p-10  grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3  gap-7 max-w-6xl mx-auto'>

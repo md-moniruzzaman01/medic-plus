@@ -27,7 +27,7 @@ const Footer = () => {
             </footer>
             <footer class="footer footer-center p-4 bg-black text-white">
                 <div>
-                    <p>Copyright © 2022 - All right reserved by Mmr creation ltd</p>
+                    <p>Copyright © 2022 - All right reserved <span className='block'>by Mmr creation ltd</span></p>
                 </div>
             </footer>
         </div>
