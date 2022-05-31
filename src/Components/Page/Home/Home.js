@@ -13,7 +13,7 @@ import OfferAppoinment from './OfferAppoinment';
 const Home = () => {
         
     return (
-        <div className=''>
+        <div  className=''>
             
            <LoadingScreen></LoadingScreen>
            <BestCare></BestCare>

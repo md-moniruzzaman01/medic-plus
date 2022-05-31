@@ -1,11 +1,12 @@
 import Home from "./Components/Page/Home/Home";
 import Navbar from "./Components/SharedSection/Navbar";
-import "aos/dist/aos.css"
 import Footer from "./Components/SharedSection/Footer";
+import "aos/dist/aos.css"
 import { Route, Routes } from "react-router-dom";
 import Doctors from "./Components/Page/doctors/Doctors";
-import Appoinment from "./Components/Page/doctors/Doctors";
 import Appointment from "./Components/Page/appoinment/Appointment";
+import Login from "./Components/Page/Login/Login";
+import Signup from "./Components/Page/Login/Signup";
 
 function App() {
   return (
@@ -15,9 +16,12 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/appointment" element={<Appointment/>}></Route>
         <Route path="/doctors" element={<Doctors></Doctors>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/signup" element={<Signup></Signup>}></Route>
+       
       </Routes>
      
-     <Footer></Footer>
+  <Footer></Footer>
     </div>
   );
 }
